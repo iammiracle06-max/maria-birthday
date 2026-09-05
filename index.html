@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 43rd Birthday, Maria</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px 60px;
+    }
+
+    .hero {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 24px;
+      padding: 30px 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      backdrop-filter: blur(6px);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: normal;
+      margin-bottom: 25px;
+    }
+
+    .main-photo {
+      width: 100%;
+      max-width: 340px;
+      border-radius: 20px;
+      margin: 20px auto;
+      display: block;
+      border: 4px solid rgba(255,255,255,0.7);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      object-fit: cover;
+    }
+
+    .message {
+      margin-top: 20px;
+      font-size: 1.15rem;
+      line-height: 1.8;
+      background: rgba(255,255,255,0.14);
+      padding: 20px;
+      border-radius: 18px;
+    }
+
+    .gallery {
+      margin-top: 35px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 18px;
+      border: 3px solid rgba(255,255,255,0.7);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    .footer-note {
+      margin-top: 35px;
+      font-size: 1rem;
+      opacity: 0.95;
+    }
+
+    .hearts {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      animation: pulse 1.6s infinite;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 28px;
+      background: #fff;
+      color: #e75480;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 14px 28px;
+      border-radius: 999px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      background: #fff7fa;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.15); opacity: 0.85; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.1rem;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      .message {
+        font-size: 1rem;
+      }
+
+      .gallery img {
+        height: 280px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>Happy 43rd Birthday, Maria ❤️</h1>
+      <h2>Heute gehört der Tag ganz dir, mein Schatz</h2>
+
+      <!-- Main image -->
+      <img src="maria1.jpg" alt="Maria" class="main-photo">
+
+      <div class="message">
+        <p>
+          Alles Gute zum 43. Geburtstag, Maria. ❤️<br><br>
+          Ich wünsche dir heute von Herzen ganz viel Liebe, Ruhe, Freude und schöne Momente.
+          Du bist etwas ganz Besonderes, und ich hoffe, dass du heute spürst, wie wertvoll du bist.
+          Möge dein neues Lebensjahr dir Glück, Gesundheit und ganz viel Wärme bringen.
+          <br><br>
+          Ich denke heute ganz besonders an dich und wünsche dir einen wunderschönen Geburtstag.
+        </p>
+      </div>
+
+      <div class="hearts">🎂💖🎉💐❤️</div>
+
+      <a href="#" class="btn">Für Maria mit Liebe</a>
+
+      <div class="gallery">
+        <img src="maria1.jpg" alt="Maria Bild 1">
+        <img src="maria2.jpg" alt="Maria Bild 2">
+      </div>
+
+      <div class="footer-note">
+        Mit ganz viel Liebe nur für dich ✨
+      </div>
+    </div>
+  </div>
+</body>
+</html>
